@@ -22,8 +22,7 @@ jobs:
         account_type: org
         timeout: 600
         debug: true
-        force_update: false
-        static_list: "ao.space"
+        force_update: true
 
     - name: Debug repo owner
       run: |
